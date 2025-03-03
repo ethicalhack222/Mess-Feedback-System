@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Lists with Attributes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* General font style */
+            margin: 20px;
+        }
+
+        ul, ol, dl {
+            margin: 20px auto;    /* Center the lists */
+            width: 50%;           /* Set width for lists */
+            background-color: #f9f9f9; /* Light background */
+            padding: 20px;        /* Inner padding for the list container */
+            border: 1px solid gray; /* Border around the list */
+        }
+
+        li {
+            margin: 5px 0;        /* Space between list items */
+        }
+
+        ul li {
+            list-style-type: square; /* Square bullets for unordered list */
+        }
+
+        ol {
+            list-style-type: decimal; /* Decimal numbering for ordered list */
+        }
+
+        dl dt {
+            font-weight: bold;       /* Bold for term in description list */
+            color: darkblue;         /* Custom color for terms */
+        }
+
+        dl dd {
+            margin-left: 20px;       /* Indent description */
+            font-style: italic;      /* Italic for descriptions */
+        }
+
+        .custom-list li {
+            color: darkgreen;        /* Custom text color for list items */
+            font-size: 18px;         /* Larger font size */
+        }
+    </style>
+</head>
+<body>
+
+<h2>HTML Lists with Attributes and Styling</h2>
+
+<!-- Unordered List -->
+<h3>Unordered List</h3>
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+</ul>
+
+<!-- Ordered List -->
+<h3>Ordered List</h3>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<!-- Nested List -->
+<h3>Nested List</h3>
+<ul class="custom-list">
+    <li>Fruits
+        <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Carrot</li>
+            <li>Spinach</li>
+        </ul>
+    </li>
+</ul>
+
+<!-- Description List -->
+<h3>Description List</h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language, the standard language for creating webpages.</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets, used for styling HTML documents.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>A programming language for interactive and dynamic webpages.</dd>
+</dl>
+
+</body>
+</html>
