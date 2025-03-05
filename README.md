@@ -1,2 +1,2 @@
 # Mess-Feedback-System
-# I am the sofa Cse
+# For the College
